@@ -1,0 +1,53 @@
+* 4store http direct
+* hunchentoot indirect to 4store
+* other web server for static files as needed
+* rdfquery
+* pagebus
+* command pattern
+* etc.
+
+FROM A STUCTURED SYSTEM TO THE SEMANTIC WEB
+================================================================
+(Integrate data from the app to data on the web)
+
+* use rdfquery with foaf:
+## look up foaf given a url
+## select the friends of that friend
+## get their foaf
+## select where they work
+## use the workplace url to find it in dbpedia
+## select the location
+## display foaf for friends, workplaces, and locations
+
+================================================================
+STRUCTURED GRAPHS
+
+* Build the graph with commands
+* Validate the changes with rules
+* Publish events about the changes
+* Record the changes with "provenance"
+* Display the graph
+* Manipulate the graph to generate commands
+
+================================================================
+NOTES (SBCL)
+
+Run sbcl with some web stuff happening:
+
+sbcl --load workspace.lisp
+
+This is loading hunchentoot, see: http://weitz.de/hunchentoot/
+
+Go to http://localhost:4242/ to see that it is running.
+Go to http://localhost:4242/hunchentoot/test to try the example site.
+
+See if hunchentoot's tests pass automatically:
+
+* (hunchentoot-test:test-hunchentoot "http://localhost:4242")
+
+The workspace should also be serving local files.
+
+Go to http://localhost:4242/rdfquery/example.html
+
+This should display a sample html file along with a favicon.ico in the
+browser's location bar.
