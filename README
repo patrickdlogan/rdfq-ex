@@ -1,3 +1,38 @@
+COPYING
+
+This file is part of RDFQ-EX.
+
+RDFQ-EX is free software: you can redistribute it and/or modify it under
+the terms of the Lesser GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+RDFQ-EX is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
+License for more details.
+
+You should have received a copy of the Lesser GNU General Public
+License along with RDFQ-EX. See the files COPYING.LESSER and COPYING. If
+these files are not present, see http://www.gnu.org/licenses/
+
+LICENSE
+
+Copyright (C) 2011 Patrick Logan
+
+Distributed under the terms of the GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
+
+See also http://www.gnu.org/licenses/
+
+CONTACT
+
+patrickdlogan uses gmail
+
+VERSION
+
+v0.1.2
+
+================================================================
 * 4store http direct
 * hunchentoot indirect to 4store
 * other web server for static files as needed
