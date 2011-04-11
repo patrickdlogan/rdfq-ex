@@ -1,3 +1,9 @@
+;; Copyright (C) 2011 Patrick Logan
+;;
+;; Distributed under the terms of the GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
+;;
+;; See the files COPYING and COPYING.LESSER as well as http://www.gnu.org/licenses/
+
 (ql:quickload "hunchentoot")
 (ql:quickload "cl-who")
 
